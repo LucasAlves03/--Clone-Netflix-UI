@@ -1,0 +1,47 @@
+@media screen and (max-width: 730px) {
+    header  .container{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .popup{
+        font-size: 15px;
+        width: auto;
+    }
+}
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width: 1030px){
+    .descricao{
+        width: 50%;
+    }
+    .popup{
+        font-size: 15px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header a{
+        display: none;
+    }
+}
+
+@media screen and (max-width:890px){
+    footer {
+        height: 25px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 735px){
+    .popup , #botao-info{
+        display: none;
+    }
+  
+}
+
